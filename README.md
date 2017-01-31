@@ -1,17 +1,16 @@
-# PythonShowcase
+# Python Showcase: League of Legends Real-Time Stat Monitor / Game Analyzer
 
 Hey crew!
 This is our team GitHub repo for our Python Showcase Project.
 
-#Project Idea: An Artificial Intelligence Secretary
+The Game: http://na.leagueoflegends.com/
+Riot Developer API: https://developer.riotgames.com/
+Django: https://docs.djangoproject.com/en/1.10/intro/overview/
 
-We will be using a multitude of technologies for this project, including:
-Python, Google Calendar API for Scheduling, OpenCV API for Facial Recognition
+The Python-Backend folder is currently just Python but will need to be ported into a Django project.
+The front end will load dynamic content to a web app.
 
-The basic concept is to build an AI that is complex enough to adequately handle customers or clients as a stand in receptionist when a human is not available. It will be able to schedule appointments, compare available openings between business hours and the client's Google Calendar and make suggestions, identify clients using facial recognition, etc. all from a kiosk.
+It currently connects up to the Riot API using my Developer Key.
+Execute main.py - it re-loads the data from the League servers, exports some data to the command line, and wipes a table in a MySQL database and adds the information into a table on the localhost.
 
-We may add the ability to scan barcodes or read RFID tags to further help identify clients. We may also end up building a web app and wrapper for mobile apps so that clients can access the AI at any time if they need to schedule or re-schedule an appointment, make changes, or request information.
-
-OpenCV Facial Recognition: https://realpython.com/blog/python/face-recognition-with-python/
-
-Google Calendar Python API: https://developers.google.com/google-apps/calendar/quickstart/python
+Database information can be found / customized in the insertIntoDB.py file
