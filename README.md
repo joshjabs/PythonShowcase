@@ -3,9 +3,9 @@
 Hey crew!
 This is our team GitHub repo for our Python Showcase Project.
 
-The Game: http://na.leagueoflegends.com/
-Riot Developer API: https://developer.riotgames.com/
-Django: https://docs.djangoproject.com/en/1.10/intro/overview/
+The Game: http://na.leagueoflegends.com/<br>
+Riot Developer API: https://developer.riotgames.com/<br>
+Django: https://docs.djangoproject.com/en/1.10/intro/overview/<br>
 
 The Python-Backend folder is currently just Python but will need to be ported into a Django project.
 The front end will load dynamic content to a web app.
